@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Eats.com Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Eats.com frontend repository! This project is built using the MERN stack with TypeScript and several modern libraries and tools to provide a seamless food ordering and restaurant management experience.
 
-Currently, two official plugins are available:
+## Live Demo
+Check out the live site: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **React** with **TypeScript** for a robust and maintainable codebase
+- **Vite** for fast and optimized development
+- **Auth0** for secure authentication
+- **Stripe** for payment processing
+- **Cloudinary** for image handling
+- **ShadCN** and **Tailwind CSS** for beautiful UI design
+- **React Hook Form** for form management
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository
+    ```bash
+    git clone https://github.com/rohanbabbar983/Eats.com-Frontend.git
+    ```
 
-- Configure the top-level `parserOptions` property like this:
+2. Install dependencies
+    ```bash
+    npm install
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Create a `.env` file in the root directory and add the necessary environment variables:
+    ```env
+    VITE_AUTH0_DOMAIN=your_auth0_domain
+    VITE_AUTH0_CLIENT_ID=your_auth0_client_id
+    VITE_AUTH0_CALLBACK_URL= your_callback_uri
+    VITE_AUTH0_AUDIENCE=your_audience_from_auth0
+    VITE_API_BASE_URL=http://localhost:7000 || your_base_url_backend
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. Start the development server
+    ```bash
+    npm run dev
+    ```
+
+## Usage
+
+Visit `http://localhost:7000` to see the application in action.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
