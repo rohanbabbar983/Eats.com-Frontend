@@ -43,7 +43,7 @@ Check out the live site:
 
 ## Usage
 
-Visit `http://localhost:7000` to see the application in action.
+Visit `http://localhost:5173` to see the application in action.
 
 ## Contributing
 
