@@ -19,6 +19,7 @@ Check out the live site:
 1. Clone the repository
     ```bash
     git clone https://github.com/rohanbabbar983/Eats.com-Frontend.git
+    cd Eats.com-Frontend
     ```
 
 2. Install dependencies
