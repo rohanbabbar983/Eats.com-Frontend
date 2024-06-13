@@ -3,7 +3,7 @@
 Welcome to the Eats.com frontend repository! This project is built using the MERN stack with TypeScript and several modern libraries and tools to provide a seamless food ordering and restaurant management experience.
 
 ## Live Demo
-Check out the live site: 
+Check out the live site: https://eats-com-frontend.onrender.com
 
 ## Features
 - **React** with **TypeScript** for a robust and maintainable codebase
